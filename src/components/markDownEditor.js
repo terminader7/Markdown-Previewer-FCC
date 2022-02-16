@@ -1,1 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+
+export const MarkDownEditor = () => {
+
+return (
+    <div id='editor-box'>
+        <h3>Editor</h3>
+        <textarea id='editor'>hellowoosdfoi</textarea>
+    </div>
+);
+}
