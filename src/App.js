@@ -5,12 +5,12 @@ import { useState } from 'react'
  
 
 function App() {
-  const [editorText, setEditorText] = useState(''); 
+  const [editorText, setEditorText] = useState('');  
   return (
 
     <div className="App">
      <MarkDownEditor setEditorText={setEditorText}/>
-     <MarkDownPreviewer editorText={editorText}/>
+     <MarkDownPreviewer editorText={editorText} />
     </div>
   );
 }
