@@ -6,10 +6,13 @@ html {
 
 .App {
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 100vw;
   background-color: bisque;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
 }
 
 #previewer-box {
@@ -20,7 +23,7 @@ html {
   border: 5px;
   border-color: black;
   border-style: dotted;
-  height: 80vh;
+  height: 90vh;
 }
 
 #preview {
@@ -29,7 +32,7 @@ html {
 #editor-box {
   border: 10px;
   width: 40vw;
-  height: 50vh;
+  height: 90vh;
   border-style: dotted;
   border-color: beige;
   background-color: white;
@@ -39,8 +42,8 @@ html {
   border: 10px;
   border-style: dotted;
   border-color: beige;
-  width: 50%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
 }
 
 #previewer-box img {
