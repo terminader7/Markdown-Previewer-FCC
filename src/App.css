@@ -1,0 +1,53 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  background-color: bisque;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+}
+
+#previewer-box {
+  width: 40vw;
+  background-color: white;
+  padding-top: 15px;
+  padding-right: 100px;
+  border: 5px;
+  border-color: black;
+  border-style: dotted;
+  height: 90vh;
+}
+
+#preview {
+}
+
+#editor-box {
+  border: 10px;
+  width: 40vw;
+  height: 90vh;
+  border-style: dotted;
+  border-color: beige;
+  background-color: white;
+}
+
+#editor {
+  border: 10px;
+  border-style: dotted;
+  border-color: beige;
+  width: 80%;
+  height: 80%;
+}
+
+#previewer-box img {
+  display: block;
+  max-width: 30%;
+  margin: 2rem auto;
+}
